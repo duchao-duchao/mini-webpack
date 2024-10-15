@@ -11,10 +11,10 @@ module.exports = {
   ],
   module: {
     rules: [
-    //   {
-    //     test: /\.txt$/,
-    //     use: path.resolve(__dirname, './uppercase-loader.js'), // 自定义加载器
-    //   },
+      {
+        test: /\.js$/,
+        use: path.resolve(__dirname, './del-console.js'), // 自定义加载器
+      },
     ],
   },
 };
